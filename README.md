@@ -30,11 +30,11 @@
 </p>
 
 **핵심 내용**
-- 국내와 해외 판매 특성 차이로 국내 데이터만 필터링
+- 국내·해외 간 판매 패턴 차이를 고려해 국내 데이터만 선별 후 분석 진행
 - 날짜형 Index 변환 및 특정 Window size 기반 Feature engineering 수행
-- 시스템 오류로 인한 이상치 삭제
+- 시스템 오류로 인한 결측·이상치 구간을 제거해 안정적인 시계열 구조 확보
 - 2019년 여름 시즌 이전을 Train set, 그 이후를 Test set으로 분리
-- darts 기반 RNNModel(LSTM)과 RandomForestRegressor를 모델링에 활용
+- darts 기반 LSTM(RNNModel)과 RandomForestRegressor를 병행해 단변량·다변량 예측 성능을 비교
 
 ---
 

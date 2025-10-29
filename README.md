@@ -19,7 +19,7 @@
 | 👕 의류 판매량 예측 | Darts RNNModel(LSTM), Random Forest Regressor | **[미리 보기](#1-의류-판매량-예측)** | [상세 보기](./1_apparel_sales_forecasting/) |
 | 🏥 당뇨 환자 재입원 예측 | LightGBM Classifier, Optuna | **[미리 보기](#2-당뇨-환자-재입원-예측)** | [상세 보기](./2_diabetes_readmission_prediction/) |
 | 👩🏻‍👦🏻 부모와 자녀의 IQ 상관 분석 | OLS Regression, Linear Regression | **[미리 보기](#3-부모와-자녀의-iq-상관-분석)** | [상세 보기](./3_parent_child_iq_correlation/) |
-| ☁️ 공기질 데이터 분석 | 여러 Regression, Support Vector Machine | **[미리 보기](#4-공기질-데이터-분석)** | [상세 보기](./4_air_quality_humidity_regression/) |
+| ☁️ 공기질 데이터 분석 | 각종 Regression, Support Vector Machine | **[미리 보기](#4-공기질-데이터-분석)** | [상세 보기](./4_air_quality_humidity_regression/) |
 
 ---
 

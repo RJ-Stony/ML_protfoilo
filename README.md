@@ -27,7 +27,7 @@
 ### 1. 의류 판매량 예측
 > LSTM과 RandomForest를 이용한 시계열 데이터 분석
 <p align="center">
-  <img src="./1.%20의류%20판매량%20예측%20모델링/report.svg" width="500"/>
+  <img src="./1_apparel_sales_forecasting/report.svg" width="500"/>
 </p>
 
 **핵심 내용**
@@ -42,7 +42,7 @@
 ### 2. 당뇨 환자 재입원 예측
 > LightGBM과 환자의 입원 관련 정보를 이용한 재입원 가능성 예측
 <p align="center">
-  <img src="./2.%20당뇨%20환자%20재입원%20예측%20모델링/report.svg" width="500"/>
+  <img src="./2_diabetes_readmission_prediction/report.svg" width="500"/>
 </p>
 
 **핵심 내용**

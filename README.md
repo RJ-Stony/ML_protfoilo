@@ -19,6 +19,7 @@
 | 👕 의류 판매량 예측 | Darts RNNModel(LSTM), Random Forest Regressor | **[미리 보기](#1-의류-판매량-예측)** | [상세 보기](./1_apparel_sales_forecasting/) |
 | 🏥 당뇨 환자 재입원 예측 | LightGBM Classifier, Optuna | **[미리 보기](#2-당뇨-환자-재입원-예측)** | [상세 보기](./2_diabetes_readmission_prediction/) |
 | 👩🏻‍👦🏻 부모와 자녀의 IQ 상관 분석 | OLS Regression, Linear Regression | **[미리 보기](#3-부모와-자녀의-iq-상관-분석)** | [상세 보기](./3_parent_child_iq_correlation/) |
+| ☁️ 공기질 데이터 분석 | 여러 Regression, Support Vector Machine | **[미리 보기](#4-공기질-데이터-분석)** | [상세 보기](./4_air_quality_humidity_regression/) |
 
 ---
 
@@ -68,6 +69,12 @@
 - 추가로 상호작용항인 mom_hs_iq_c = mom_hs * mom_iq_c 생성 후 동일한 KFold 평가 루프 구성
 
 ---
+
+### 4. 공기질 데이터 분석
+> 현재 진행 중
+
+**핵심 내용**
+- 현재 진행 중
 
 ## 향후 계획
 - `4. 공기질 데이터 분석` EDA 추가 예정

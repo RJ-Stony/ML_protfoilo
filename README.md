@@ -55,12 +55,19 @@
 ---
 
 ### 3. 부모와 자녀의 IQ 상관 분석
-> OLS Regression을 이용한 어머니와 자녀의 IQ 상관 분석
+> OLS와 LinearRegression을 이용한 어머니와 자녀의 IQ 상관 분석
+<p align="center">
+  <img src="./3_parent_child_iq_correlation/report.svg" width="500"/>
+</p>
 
 **핵심 내용**
-- 현재 진행 중
+- 엄마의 IQ·나이 편차 컬럼을 추가해 평균 대비 개인 차이 반영
+- A/B Line 시각화로 고등학교 졸업 여부에 따른 선형 관계 차이 시각적으로 확인
+- 부모와 자녀의 IQ 데이터를 활용해 OLS와 Linear Regression 기반 상관 분석 모델 구축
+- 5/10-Fold 교차검증을 통해 R²와 RMSE 기준으로 모델의 일반화 성능 검증
+- 추가로 상호작용항인 mom_hs_iq_c = mom_hs * mom_iq_c 생성 후 동일한 KFold 평가 루프 구성
 
 ---
 
 ## 향후 계획
-- `3. 부모와 자녀의 IQ 상관 분석` 모델링 추가 예정
+- `4. 공기질 데이터 분석` EDA 추가 예정

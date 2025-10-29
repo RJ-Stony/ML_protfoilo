@@ -35,7 +35,7 @@
 - 날짜형 Index 변환 및 특정 Window size 기반 Feature engineering 수행
 - 시스템 오류로 인한 결측·이상치 구간을 제거해 안정적인 시계열 구조 확보
 - 2019년 여름 시즌 이전을 Train set, 그 이후를 Test set으로 분리
-- darts 기반 LSTM(RNNModel)과 RandomForestRegressor를 병행해 단변량·다변량 예측 성능을 비교
+- darts 기반 LSTM(RNNModel)과 RandomForestRegressor를 병행해 단변량·다변량 예측 성능 비교
 
 ---
 
@@ -47,9 +47,9 @@
 
 **핵심 내용**
 - OpenML의 당뇨 환자 데이터셋에서 타겟과 직접적으로 연관된 변수를 제거하고 One-Hot 인코딩 수행
-- 학습·평가용으로 데이터를 Train(70%)/Test(30%)로 분리하고, 성능 평가 함수를 직접 정의
-- 클래스 불균형 문제를 해결하기 위해 scale_pos_weight 조정 및 Optuna 하이퍼파라미터 튜닝을 수행
-- 모델 성능을 Precision, Recall, ROC-AUC, F1 등 다양한 지표로 평가하며, FP/TN 비율 제약을 두어 중증 환자 탐지를 강화
+- 학습·평가용으로 데이터를 Train(70%)/Test(30%)로 분리하고, 성능 평가 함수 직접 정의
+- 클래스 불균형 문제를 해결하기 위해 scale_pos_weight 조정 및 Optuna 하이퍼파라미터 튜닝 수행
+- 모델 성능을 Precision, Recall, ROC-AUC, F1 등 다양한 지표로 평가하며, FP/TN 비율 제약을 두어 중증 환자 탐지 강화
 - 최적화 결과, Recall 중심의 재입원 예측 모델을 구축하고, 임계값 조정 후처리로 예측 안정성 개선
 
 ---

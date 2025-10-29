@@ -15,9 +15,9 @@
 
 | 프로젝트 주제 | 주요 기법 | 미리 보기 | 링크 |
 |:----------|:-----------|:---------|:-----|
-| 👕 의류 판매량 예측 | Darts RNNModel(LSTM), RandomForest Regressor | **[미리 보기](#1-의류-판매량-예측)** | [상세 보기](./1.%20의류%20판매량%20예측%20모델링/) |
-| 🏥 당뇨 환자 재입원 예측 | LightGBM Classifier, Optuna | **[미리 보기](#2-당뇨-환자-재입원-예측)** | [상세 보기](./2.%20당뇨%20환자%20재입원%20예측%20모델링/) |
-| 👩🏻‍👦🏻 엄마와 자식의 IQ 상관 분석 | OLS Regression | **[미리 보기](#3-부모와-자녀의-iq-상관-분석)** | [상세 보기](./3.%20부모와%20자녀의%20IQ%20상관%20분석/) |
+| 👕 의류 판매량 예측 | Darts RNNModel(LSTM), RandomForest Regressor | **[미리 보기](#1-의류-판매량-예측)** | [상세 보기](https://github.com/RJ-Stony/ML_protfoilo/tree/main/1.%20의류%20판매량%20예측%20모델링) |
+| 🏥 당뇨 환자 재입원 예측 | LightGBM Classifier, Optuna | **[미리 보기](#2-당뇨-환자-재입원-예측)** | [상세 보기](https://github.com/RJ-Stony/ML_protfoilo/tree/main/2.%20당뇨%20환자%20재입원%20예측%20모델링) |
+| 👩🏻‍👦🏻 엄마와 자식의 IQ 상관 분석 | OLS Regression | **[미리 보기](#3-부모와-자녀의-iq-상관-분석)** | [상세 보기](https://github.com/RJ-Stony/ML_protfoilo/tree/main/3.%20부모와%20자녀의%20IQ%20상관%20분석) |
 
 ---
 

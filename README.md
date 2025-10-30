@@ -71,10 +71,13 @@
 ---
 
 ### 4. 공기질 데이터 분석
-> 현재 진행 중
+> 다양한 Regression 기법을 이용한 공기질 데이터 분석
+<p align="center">
+  <img src="./4_air_quality_humidity_regression/report.svg" width="500"/>
+</p>
 
 **핵심 내용**
 - 현재 진행 중
 
 ## 향후 계획
-- `4. 공기질 데이터 분석` EDA 추가 예정
+- `5. 프로젝트` 데이터 추가 예정

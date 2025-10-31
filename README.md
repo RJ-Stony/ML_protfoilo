@@ -20,7 +20,7 @@
 | 🏥 당뇨 환자 재입원 예측 | LightGBM Classifier, Optuna | **[미리 보기](#2-당뇨-환자-재입원-예측)** | [상세 보기](./2_diabetes_readmission_prediction/) |
 | 👩🏻‍👦🏻 부모와 자녀의 IQ 상관 분석 | OLS Regression, Linear Regression | **[미리 보기](#3-부모와-자녀의-iq-상관-분석)** | [상세 보기](./3_parent_child_iq_correlation/) |
 | ☁️ 공기질 데이터 분석 | 각종 Regressor, Support Vector Machine | **[미리 보기](#4-공기질-데이터-분석)** | [상세 보기](./4_air_quality_humidity_regression/) |
-| 🏥 유방암 환자 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암 환자 분류)** | [상세 보기](./5_breast_cancer_classification/) |
+| 🏥 유방암 환자 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-분류)** | [상세 보기](./5_breast_cancer_classification/) |
 
 ---
 

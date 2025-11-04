@@ -87,10 +87,14 @@
 ---
 
 ### 5. 유방암 환자 분류
-> 현재 진행 중
+> 다양한 Classifier 모델을 이용한 유방암 환자 분류
 
 **핵심 내용**
-- 현재 진행 중
+- Logistic Regression, LDA, SVM, KNN, RandomForest를 이용해 악성 종양(M)과 양성 종양(B)을 구분하는 이진 분류 문제
+- 불필요한 Unnamed: 32 컬럼을 제거 후, diagnosis를 M→malignant, B→benign으로 매핑하여 타깃 변수 정제
+- 데이터를 70% 학습 / 30% 평가로 분리하되, stratify=y를 적용해 클래스 비율 유지
+- 각 모델 테스트 결과, Logistic Regression이 정확도 0.9649, 악성 예측 Recall 0.9219로 가장 우수했으며, SVM과 LDA가 뒤를 이음
+- Precision, Recall, F1, ROC-AUC, Cohen’s Kappa 등 다양한 지표를 통해 모델의 진단 민감도와 신뢰도를 종합적으로 검증
 
 ## 향후 계획
-- `5. 유방암 환자 분류 모델링` Random Forest 모델링 예정
+- `6. 간암 환자 분류 모델링` 데이터 확인 예정

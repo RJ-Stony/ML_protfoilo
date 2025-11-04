@@ -90,6 +90,9 @@
 
 ### 5. 유방암 환자 및 6. 흡연 여부 분류
 > 다양한 Classifier 모델을 이용한 유방암 환자/흡연 여부 분류
+<p align="center">
+  <img src="./5_breast_cancer_classification/report.svg" width="500"/>
+</p>
 
 **핵심 내용(유방암)**
 - Logistic Regression, LDA, SVM, KNN, RandomForest를 이용해 악성 종양(M)과 양성 종양(B)을 구분하는 이진 분류 문제

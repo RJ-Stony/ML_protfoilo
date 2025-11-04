@@ -20,7 +20,9 @@
 | 🏥 당뇨 환자 재입원 예측 | LightGBM Classifier, Optuna | **[미리 보기](#2-당뇨-환자-재입원-예측)** | [상세 보기](./2_diabetes_readmission_prediction/) |
 | 👩🏻‍👦🏻 부모와 자녀의 IQ 상관 분석 | OLS Regression, Linear Regression | **[미리 보기](#3-부모와-자녀의-iq-상관-분석)** | [상세 보기](./3_parent_child_iq_correlation/) |
 | ☁️ 공기질 데이터 분석 | 각종 Regressor, Support Vector Machine | **[미리 보기](#4-공기질-데이터-분석)** | [상세 보기](./4_air_quality_humidity_regression/) |
-| 🏥 유방암 환자 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-분류)** | [상세 보기](./5_breast_cancer_classification/) |
+| 🏥 유방암 환자 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./5_breast_cancer_classification/) |
+| 😮‍💨 흡연 여부 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./6_smoking_status_classification/) |
+
 
 ---
 
@@ -86,15 +88,21 @@
 
 ---
 
-### 5. 유방암 환자 분류
-> 다양한 Classifier 모델을 이용한 유방암 환자 분류
+### 5. 유방암 환자 및 6. 흡연 여부 분류
+> 다양한 Classifier 모델을 이용한 유방암 환자/흡연 여부 분류
 
-**핵심 내용**
+**핵심 내용(유방암)**
 - Logistic Regression, LDA, SVM, KNN, RandomForest를 이용해 악성 종양(M)과 양성 종양(B)을 구분하는 이진 분류 문제
 - 불필요한 Unnamed: 32 컬럼을 제거 후, diagnosis를 M→malignant, B→benign으로 매핑하여 타깃 변수 정제
 - 데이터를 70% 학습 / 30% 평가로 분리하되, stratify=y를 적용해 클래스 비율 유지
 - 각 모델 테스트 결과, Logistic Regression이 정확도 0.9649, 악성 예측 Recall 0.9219로 가장 우수했으며, SVM과 LDA가 뒤를 이음
 - Precision, Recall, F1, ROC-AUC, Cohen’s Kappa 등 다양한 지표를 통해 모델의 진단 민감도와 신뢰도를 종합적으로 검증
 
+**핵심 내용(흡연 여부)**
+- Logistic Regression, KNN, LDA, SVC를 이용해 건강검진 데이터 기반 흡연자 여부를 분류하는 이진 분류 문제
+- 이상치(시력 10.0 등)를 연령대별 중앙값으로 대체하고, 극단값이 존재하는 변수는 RobustScaler로 정규화하여 안정적 입력 데이터 구성
+
+---
+
 ## 향후 계획
-- `6. 간암 환자 분류 모델링` 데이터 확인 예정
+- `7. 유기견 입양 소요 기간 분석` 데이터 확인 예정

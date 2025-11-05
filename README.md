@@ -1,14 +1,14 @@
 # Machine Learning Portfolio
 
 데이터를 기반으로 문제를 정의하고, 모델링을 통해 해답을 찾아가는 과정을 담은 포트폴리오입니다.  
-각 프로젝트는 **데이터 탐색 → 전처리 → 모델링 → 인사이트 도출**과 같은 전체적인 데이터 분석 과정을 포함하고 있습니다.
+각 프로젝트는 **문제 정의 → 데이터 확인 → 문제 해결 프로세스 정의 → 데이터 전처리 → 모델링 → 인사이트 도출**과 같은 전체적인 데이터 분석 과정을 포함하고 있습니다.
 
 ---
 
 > 각 프로젝트 폴더 안에는 다음 파일들이 포함되어 있습니다.
 > - `notebook.ipynb`: 분석 코드 전체
 > - `README.md`: 분석 코드 개요
-> - `report.png`: 프로젝트 1장 요약
+> - `report.png`: 프로젝트 1장 요약(1-pager)
 
 ---
 
@@ -22,6 +22,7 @@
 | ☁️ 공기질 데이터 분석 | 각종 Regressor, Support Vector Machine | **[미리 보기](#4-공기질-데이터-분석)** | [상세 보기](./4_air_quality_humidity_regression/) |
 | 🏥 유방암 환자 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./5_breast_cancer_classification/) |
 | 😮‍💨 흡연 여부 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./6_smoking_status_classification/) |
+| 🐕 유기견 입양 소요 기간 분석 | statsmodels | **[미리 보기](#7-유기견-입양-소요-기간-분석)** | [상세 보기](./7_pet_adoption_duration_analysis/) |
 
 
 ---
@@ -106,6 +107,12 @@
 - 이상치(시력 10.0 등)를 연령대별 중앙값으로 대체하고, 극단값이 존재하는 변수는 RobustScaler로 정규화하여 안정적 입력 데이터 구성
 
 ---
+
+### 7. 유기견 입양 소요 기간 분석
+> 현재 진행 중
+
+**핵심 내용**
+- 현재 진행 중
 
 ## 향후 계획
 - `7. 유기견 입양 소요 기간 분석` 데이터 확인 예정

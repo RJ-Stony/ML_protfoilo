@@ -23,7 +23,7 @@
 | 🏥 유방암 환자 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./5_breast_cancer_classification/) |
 | 😮‍💨 흡연 여부 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./6_smoking_status_classification/) |
 | 🐕 유기견 입양 소요 기간 분석 | Logistic Regressor, Neural Network | **[미리 보기](#7-유기견-입양-소요-기간-분석)** | [상세 보기](./7_pet_adoption_duration_analysis/) |
-
+| 💳 신용카드 이상거래 분류 | Logistic Regressor, KNN, Random Forest Classifier | **[미리 보기](#8-신용카드-이상거래-탐지-모델링)** | [상세 보기](./8_creditcard_fraud_detection/) |
 
 ---
 
@@ -121,5 +121,13 @@
 - RandomForest 기반 변수 중요도 분석 결과, 사진 수·설명 길이·나이가 주요 결정 요인으로 도출
 - TensorFlow 신경망 모델을 추가해 다변량 관계를 학습한 결과, 약 72% 정확도로 유의한 예측 성능 확보
 
+---
+
+### 8. 신용카드 이상거래 탐지 모델링
+> 현재 진행 중
+
+**핵심 내용**
+- 현재 진행 중
+
 ## 향후 계획
-- `8. 신용카드 이상거래 탐지 모델링` 데이터 확인 예정
+- `8. 신용카드 이상거래 탐지 모델링` Data Readiness Check 예정

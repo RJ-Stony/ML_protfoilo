@@ -124,10 +124,17 @@
 ---
 
 ### 8. 신용카드 이상거래 탐지 모델링
-> 현재 진행 중
+> Under-Sampling과 Linear Discriminant Analysis를 이용한 신용카드 이상 거래 탐지
+<p align="center">
+  <img src="./8_creditcard_fraud_detection/report.svg" width="500"/>
+</p>
 
 **핵심 내용**
-- 현재 진행 중
+- 정상 284,315건(99.83%) vs 이상거래 492건(0.17%)의 극단적인 불균형 구조를 5% 랜덤 Under-sampling으로 조정해 학습 가능한 데이터셋 구성
+- Logistic·KNN·SVM·RandomForest와 비교한 결과, LDA가 Fraud Recall 0.75로 가장 안정적인 탐지 성능 확보
+- Sigmoid 커널 기반 SVM은 비선형 구조를 충분히 펼치지 못해 Fraud Recall 0.50으로 낮은 성능을 보임
+- Permutation Importance 분석에서는 v1·v4·v5·v28 등이 높은 기여도를 보였으나, RandomForest 자체의 학습 한계로 인한 해석력 제약 존재
+- Over-sampling(1:1) 적용 시 오히려 오탐 증가 및 F1-score 급락(0.10대로 하락)을 확인하며, 실제 분포를 유지한 Under-sampling의 우수성 검증
 
 ## 향후 계획
 - `9. 공조기기 전력 사용 상태 분석` 데이터 준비 예정

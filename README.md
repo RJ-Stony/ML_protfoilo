@@ -24,7 +24,7 @@
 | 😮‍💨 흡연 여부 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./6_smoking_status_classification/) |
 | 🐕 유기견 입양 소요 기간 분석 | Logistic Regressor, Neural Network | **[미리 보기](#7-유기견-입양-소요-기간-분석)** | [상세 보기](./7_pet_adoption_duration_analysis/) |
 | 💳 신용카드 이상거래 분류 | Logistic Regressor, KNN, Linear Discriminant Analysis | **[미리 보기](#8-신용카드-이상거래-탐지)** | [상세 보기](./8_creditcard_fraud_detection/) |
-| ⚡ 공조기기 전력 사용 상태 분석 | Random Forest Regressor | **[미리 보기](# 9-공조기기-전력-사용-상태-분석)** | [상세 보기](./9_hvac_soh_prediction/) |
+| ⚡ 공조기기 전력 사용 상태 분석 | Random Forest Regressor | **[미리 보기](#9-공조기기-전력-사용-상태-분석)** | [상세 보기](./9_hvac_soh_prediction/) |
 
 ---
 

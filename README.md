@@ -23,7 +23,8 @@
 | 🏥 유방암 환자 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./5_breast_cancer_classification/) |
 | 😮‍💨 흡연 여부 분류 | 각종 Classifier, KNN, Linear Discriminant Analysis | **[미리 보기](#5-유방암-환자-및-6-흡연-여부-분류)** | [상세 보기](./6_smoking_status_classification/) |
 | 🐕 유기견 입양 소요 기간 분석 | Logistic Regressor, Neural Network | **[미리 보기](#7-유기견-입양-소요-기간-분석)** | [상세 보기](./7_pet_adoption_duration_analysis/) |
-| 💳 신용카드 이상거래 분류 | Logistic Regressor, KNN, Linear Discriminant Analysis | **[미리 보기](#8-신용카드-이상거래-탐지-모델링)** | [상세 보기](./8_creditcard_fraud_detection/) |
+| 💳 신용카드 이상거래 분류 | Logistic Regressor, KNN, Linear Discriminant Analysis | **[미리 보기](#8-신용카드-이상거래-탐지)** | [상세 보기](./8_creditcard_fraud_detection/) |
+| ⚡ 공조기기 전력 사용 상태 분석 | Random Forest Regressor | **[미리 보기](# 9-공조기기-전력-사용-상태-분석)** | [상세 보기](./9_hvac_soh_prediction/) |
 
 ---
 
@@ -123,7 +124,7 @@
 
 ---
 
-### 8. 신용카드 이상거래 탐지 모델링
+### 8. 신용카드 이상거래 탐지
 > Under-Sampling과 Linear Discriminant Analysis를 이용한 신용카드 이상 거래 탐지
 <p align="center">
   <img src="./8_creditcard_fraud_detection/report.svg" width="500"/>
@@ -136,5 +137,13 @@
 - Permutation Importance 분석에서는 v1·v4·v5·v28 등이 높은 기여도를 보였으나, RandomForest 자체의 학습 한계로 인한 해석력 제약 존재
 - Over-sampling(1:1) 적용 시 오히려 오탐 증가 및 F1-score 급락(0.10대로 하락)을 확인하며, 실제 분포를 유지한 Under-sampling의 우수성 검증
 
+---
+
+### 9. 공조기기 전력 사용 상태 분석
+> 현재 진행 중
+
+**핵심 내용**
+- 현재 진행 중
+
 ## 향후 계획
-- `9. 공조기기 전력 사용 상태 분석` 데이터 준비 예정
+- `9. 공조기기 전력 사용 상태 분석` 모델링 예정
